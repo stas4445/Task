@@ -26,8 +26,9 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 15px;
+  padding: 14px;
   color: #fff;
+  font-size: 15px;
 }
 .bg-title h2 {
   flex-grow: 1;
