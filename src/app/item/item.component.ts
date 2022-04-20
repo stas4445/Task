@@ -13,10 +13,9 @@ export class ItemComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  
   @Input()
   item!: Item;
-  @Input()
-  newItem: string = "";
   @Output() remove = new EventEmitter<Item>();
 
 }
