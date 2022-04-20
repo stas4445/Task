@@ -1,0 +1,34 @@
+.post_item button {
+  border: none;
+  outline: none;
+  background-color: #fff;
+}
+
+.post_item {
+  display: flex;
+  max-width: 900px;
+}
+
+.post_text {
+  width: 900px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-color: rgb(67, 67, 67);
+}
+
+.bg-text {
+  background: rgb(224, 224, 224);
+  border-radius: 0px 0px 10px 10px;
+  padding: 15px;
+  text-align: justify;
+}
+.bg-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 15px;
+  color: #fff;
+}
+.bg-title h2 {
+  flex-grow: 1;
+}

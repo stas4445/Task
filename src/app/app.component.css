@@ -1,0 +1,54 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.inputs_title {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  min-height: 25px;
+}
+
+.inputs_text {
+  min-height: 140px;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border-style: none;
+  outline: none;
+  resize: none;
+}
+
+.add-button {
+  border-radius: 10px;
+  border-style: none;
+  margin-top: 15px;
+  padding: 3px 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+}
+
+.background {
+  background: rgb(224, 224, 224);
+  max-width: 250px;
+  border-radius: 10px;
+  border-style: none;
+  flex-grow: 1;
+  height: 300px;
+}
+
+.cols {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.p {
+  margin-bottom: 80px;
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
